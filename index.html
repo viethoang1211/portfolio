@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truong Viet Hoang | DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">TVH<span class="accent">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Truong Viet Hoang</h1>
+            <div class="hero-title-wrapper">
+                <span class="hero-title" id="typedText"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">
+                Building and automating cloud-native infrastructure across Azure & AWS.
+                Passionate about Kubernetes, CI/CD, Infrastructure as Code, and AI-powered systems.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#experience" class="btn btn-outline">View My Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">2+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">Certifications</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Azure Tenants Managed</span>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        DevOps and Cloud Engineer with roughly <strong>2 years of experience</strong> designing,
+                        automating,
+                        and operating cloud-native infrastructure across <strong>Microsoft Azure</strong> and
+                        <strong>AWS</strong> environments.
+                    </p>
+                    <p>
+                        Experienced in managing Kubernetes platforms, building CI/CD pipelines, and implementing
+                        Infrastructure as Code using <strong>Terraform</strong> and <strong>Ansible</strong>.
+                        Skilled in automation using PowerShell, Python, and Bash.
+                    </p>
+                    <p>
+                        Additionally experienced in building and operating <strong>AI-powered systems</strong>,
+                        including
+                        AI agent orchestration platforms and intelligent document processing solutions such as
+                        invoice OCR systems, integrating modern AI capabilities into scalable cloud infrastructure.
+                    </p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">☁️</div>
+                        <h3>Cloud Infrastructure</h3>
+                        <p>Azure & AWS multi-tenant environments</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">⚙️</div>
+                        <h3>DevOps & Automation</h3>
+                        <p>CI/CD, IaC, GitOps workflows</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🤖</div>
+                        <h3>AI Engineering</h3>
+                        <p>AI agents, OCR, intelligent processing</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🐳</div>
+                        <h3>Container Orchestration</h3>
+                        <p>Kubernetes, Helm, AKS clusters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <!-- Current Role: DevOps & AI Engineer -->
+                <div class="timeline-item">
+                    <div class="timeline-marker current"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>DevOps Engineer & AI Engineer</h3>
+                                <span class="company">HRS Group</span>
+                            </div>
+                            <span class="timeline-date">Nov 2024 &mdash; Present</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <strong>AI Agent Platform Development:</strong> Develop AI agent fleet systems that
+                                coordinate
+                                multiple AI agents to perform complex automated workflows. Implement orchestration logic
+                                enabling agents to collaborate and execute tasks across different services and tools.
+                            </li>
+                            <li>
+                                <strong>Intelligent Document Processing:</strong> Develop and deploy invoice OCR systems
+                                for
+                                automated data extraction from financial documents. Integrate OCR outputs with backend
+                                systems
+                                to support structured data processing and downstream automation.
+                            </li>
+                            <li>
+                                <strong>Cloud-based AI Infrastructure:</strong> Deploy and operate AI workloads across
+                                AWS and
+                                Azure environments, ensuring scalability and reliability. Integrate AI services into
+                                production
+                                systems using containerized workloads and cloud infrastructure.
+                            </li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">AI Agents</span>
+                            <span class="tag">OCR</span>
+                            <span class="tag">Azure</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous Role: DevOps Engineer -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>DevOps Engineer</h3>
+                                <span class="company">HRS Group</span>
+                            </div>
+                            <span class="timeline-date">Feb 2024 &mdash; Nov 2024</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <strong>Cloud Infrastructure:</strong> Manage infrastructure across three Azure tenants,
+                                ensuring reliable and secure environments. Design and maintain networking components
+                                including Application Gateway, Load Balancer, and Site-to-Site VPN connectivity.
+                            </li>
+                            <li>
+                                <strong>Kubernetes Platform Operations:</strong> Operate and maintain AKS clusters
+                                running
+                                production microservices. Implement deployment workflows using Helm charts and ArgoCD
+                                (GitOps) for consistent releases across environments.
+                            </li>
+                            <li>
+                                <strong>CI/CD and Automation:</strong> Design and maintain Azure DevOps pipelines to
+                                automate
+                                build, deployment, and infrastructure workflows. Develop automation scripts using
+                                PowerShell,
+                                Python, and Bash.
+                            </li>
+                            <li>
+                                <strong>Infrastructure as Code:</strong> Provision and manage infrastructure using
+                                Terraform
+                                and Ansible, enabling reproducible deployments.
+                            </li>
+                            <li>
+                                <strong>Monitoring and Observability:</strong> Maintain monitoring systems using
+                                Prometheus,
+                                Grafana, and ELK stack for system visibility and troubleshooting.
+                            </li>
+                            <li>
+                                <strong>Resilience and Continuity:</strong> Participate in Disaster Recovery and
+                                Business
+                                Continuity Planning (BCP) initiatives.
+                            </li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Azure</span>
+                            <span class="tag">AKS</span>
+                            <span class="tag">Terraform</span>
+                            <span class="tag">Ansible</span>
+                            <span class="tag">ArgoCD</span>
+                            <span class="tag">Helm</span>
+                            <span class="tag">Azure DevOps</span>
+                            <span class="tag">Prometheus</span>
+                            <span class="tag">Grafana</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Intern -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>DevOps Intern</h3>
+                                <span class="company">HRS Group</span>
+                            </div>
+                            <span class="timeline-date">Earlier in 2024</span>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>Started career in DevOps, gaining hands-on experience with cloud infrastructure, CI/CD
+                                pipelines, and automation practices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">☁️</div>
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-items">
+                        <span>Microsoft Azure</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🐳</div>
+                    <h3>Containers & Orchestration</h3>
+                    <div class="skill-items">
+                        <span>Kubernetes</span>
+                        <span>Docker</span>
+                        <span>Helm</span>
+                        <span>ArgoCD</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Infrastructure as Code</h3>
+                    <div class="skill-items">
+                        <span>Terraform</span>
+                        <span>Ansible</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🔄</div>
+                    <h3>CI/CD & GitOps</h3>
+                    <div class="skill-items">
+                        <span>Azure DevOps Pipelines</span>
+                        <span>ArgoCD</span>
+                        <span>Gitlab</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">💻</div>
+                    <h3>Scripting & Automation</h3>
+                    <div class="skill-items">
+                        <span>PowerShell</span>
+                        <span>Python</span>
+                        <span>Bash</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">📊</div>
+                    <h3>Monitoring & Observability</h3>
+                    <div class="skill-items">
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>ELK Stack</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Networking</h3>
+                    <div class="skill-items">
+                        <span>Application Gateway</span>
+                        <span>Load Balancer</span>
+                        <span>Site-to-Site VPN</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI & ML</h3>
+                    <div class="skill-items">
+                        <span>AI Agent Orchestration</span>
+                        <span>OCR / Document Processing</span>
+                        <span>Azure AI Services</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section section-alt" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-card expert">
+                    <div class="cert-badge">Expert</div>
+                    <div class="cert-icon">🏆</div>
+                    <h3>Azure DevOps Engineer Expert</h3>
+                    <p class="cert-code">AZ-400</p>
+                    <p class="cert-year">2025</p>
+                </div>
+                <div class="cert-card expert">
+                    <div class="cert-badge">Expert</div>
+                    <div class="cert-icon">🏆</div>
+                    <h3>Azure Solutions Architect Expert</h3>
+                    <p class="cert-code">AZ-305</p>
+                    <p class="cert-year">2025</p>
+                </div>
+                <div class="cert-card associate">
+                    <div class="cert-badge">Associate</div>
+                    <div class="cert-icon">🎖️</div>
+                    <h3>Terraform Associate</h3>
+                    <p class="cert-code">HashiCorp Certified</p>
+                    <p class="cert-year">2025</p>
+                </div>
+                <div class="cert-card associate">
+                    <div class="cert-badge">Associate</div>
+                    <div class="cert-icon">🎖️</div>
+                    <h3>Azure AI Engineer Associate</h3>
+                    <p class="cert-code">AI-102</p>
+                    <p class="cert-year">2025</p>
+                </div>
+                <div class="cert-card associate">
+                    <div class="cert-badge">Associate</div>
+                    <div class="cert-icon">🎖️</div>
+                    <h3>Azure Security Engineer Associate</h3>
+                    <p class="cert-code">AZ-500</p>
+                    <p class="cert-year">2025</p>
+                </div>
+                <div class="cert-card associate">
+                    <div class="cert-badge">Associate</div>
+                    <div class="cert-icon">🎖️</div>
+                    <h3>Azure Administrator Associate</h3>
+                    <p class="cert-code">AZ-104</p>
+                    <p class="cert-year">2024</p>
+                </div>
+                <div class="cert-card language">
+                    <div class="cert-badge">Language</div>
+                    <div class="cert-icon">📝</div>
+                    <h3>Academic IELTS 6.5</h3>
+                    <p class="cert-code">British Council</p>
+                    <p class="cert-year">2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="edu-icon">🎓</div>
+                <div class="edu-content">
+                    <h3>Bachelor of Computer Science</h3>
+                    <p class="edu-school">University of Science, HCM National University</p>
+                    <p class="edu-year">2020 &mdash; 2024</p>
+                    <p class="edu-details">
+                        <strong>GPA:</strong> 8.51 / 10.00
+                    </p>
+                    <p class="edu-details">
+                        <strong>Modules:</strong> Database, Network Protocol, Computer Hardware, Software Testing,
+                        Software Analysis
+                    </p>
+                    <p class="edu-details">
+                        🏅 <strong>Semifinalist</strong> in the "Thach Thuc" Academic Competition 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-subtitle">
+                I'm always open to discussing new opportunities, DevOps challenges, or cloud architecture.
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:viethoangwork1211@gmail.com" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>viethoangwork1211@gmail.com</p>
+                </a>
+                <a href="tel:+84398535898" class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Phone</h3>
+                    <p>039 853 5898</p>
+                </a>
+                <a href="https://www.linkedin.com/in/viethoang2002/" class="contact-card" target="_blank"
+                    rel="noopener noreferrer">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with me</p>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Ho Chi Minh City, Vietnam</p>
+                </div>
+            </div>
+            <div class="cv-download">
+                <a href="DevopsEngineer_TruongVietHoang.pdf" class="btn btn-primary" download>
+                    📄 Download My CV (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Truong Viet Hoang. Built with passion for DevOps.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
